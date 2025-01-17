@@ -1,7 +1,0 @@
-aggregate_check: false
-
-# destination upon merge
-# not planned for main yet
-# please give a more thorough review if we do want to release to main
-upload_channels:
-  - ai-staging

@@ -35,6 +35,7 @@ outputs:
         See {{ family }}-microarch-level for using this in conda recipes
       license: BSD-3-Clause
       license_file: LICENSE.txt
+      license_family: BSD
 
   - name: {{ family }}-microarch-level
     script: install_scripts.sh
@@ -81,12 +82,14 @@ outputs:
         Only supported on Linux and macOS.
       license: BSD-3-Clause
       license_file: LICENSE.txt
+      license_family: BSD
 
 about:
   home: https://github.com/conda-forge/microarch-level-feedstock
   summary: 'Meta package to build conda recipes with microarchitecture levels'
   license: BSD-3-Clause
   license_file: LICENSE.txt
+  license_family: BSD
 
 extra:
   feedstock-name: microarch-level
